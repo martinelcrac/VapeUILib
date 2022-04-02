@@ -112,6 +112,7 @@ function Fun.Create(title)
     nightmares.TextXAlignment = Enum.TextXAlignment.Left
     nightmares.Font = Enum.Font.Gotham
     nightmares.Text = " "..title
+    nightmares.TextScaled = true
     nightmares.TextColor3 = Color3.fromRGB(92, 53, 93)
     nightmares.TextSize = 20.000
     nightmares.TextWrapped = true
