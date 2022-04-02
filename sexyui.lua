@@ -108,7 +108,7 @@ function Fun.Create(title)
     nightmares.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     nightmares.BackgroundTransparency = 1.000
     nightmares.Position = UDim2.new(0.0499999262, 0, 0.0228203665, 0)
-    nightmares.Size = UDim2.new(0, 103, 0, 28)
+    nightmares.Size = UDim2.new(0, 150, 0, 30)
     nightmares.TextXAlignment = Enum.TextXAlignment.Left
     nightmares.Font = Enum.Font.Gotham
     nightmares.Text = " "..title
