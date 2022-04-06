@@ -172,7 +172,7 @@ function Fun.Create(title)
         tabButton.Size = UDim2.new(0, 149, 0, 35)
         tabButton.Font = Enum.Font.Gotham
         tabButton.Text = tabText
-        tabButton.TextScaled = true
+        tabButton.TextScaled = false
         tabButton.TextColor3 = Color3.fromRGB(87, 87, 104)
         tabButton.TextSize = 16.000
 
@@ -366,6 +366,7 @@ function Fun.Create(title)
                 TextButton.AutoButtonColor = false
                 TextButton.Font = Enum.Font.Gotham
                 TextButton.Text = btnText
+		TextButton.TextScaled = True
                 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
                 TextButton.TextSize = 14.000
 
