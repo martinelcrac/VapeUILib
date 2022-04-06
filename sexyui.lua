@@ -1,5 +1,5 @@
 local Fun = {}
-
+--sex
 local input = game:GetService("UserInputService")
 local run = game:GetService("RunService")
 local tween = game:GetService("TweenService")
@@ -404,13 +404,13 @@ function Fun.Create(title)
                         game.TweenService:Create(TextButton, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut),{
                             Size = UDim2.new(0, 262,0, 31),
                             TextSize = 14
-									TextWrapped = true
+									
                         }):Play()
                     else
                         game.TweenService:Create(TextButton, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut),{
                             Size = UDim2.new(0, 262,0, 31),
                             TextSize = 14
-									TextWrapped = true
+									
                         }):Play()
                     end
                 end)
@@ -433,7 +433,7 @@ function Fun.Create(title)
                         game.TweenService:Create(TextButton, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut),{
                             Size = UDim2.new(0, 262,0, 31),
                             TextSize = 14
-									TextWrapped = true
+								
                         }):Play()
                         game.TweenService:Create(TextButton, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut),{
                             BackgroundColor3 = Color3.fromRGB(127, 97, 145)
@@ -443,7 +443,7 @@ function Fun.Create(title)
                         game.TweenService:Create(TextButton, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut),{
                             Size = UDim2.new(0, 262,0, 31),
                             TextSize = 14
-									TextWrapped = true
+								
                         }):Play()
                         game.TweenService:Create(TextButton, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut),{
                             BackgroundColor3 = Color3.fromRGB(127, 97, 145)
