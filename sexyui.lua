@@ -369,7 +369,7 @@ function Fun.Create(title)
                 TextButton.Text = btnText
                 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
                 TextButton.TextSize = 14.000
-		TextButton.TextScaled = true
+		TextButton.TextWrapped = true
 
                 UICorner.CornerRadius = UDim.new(0, 5)
                 UICorner.Parent = TextButton
