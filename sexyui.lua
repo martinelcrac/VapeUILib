@@ -367,8 +367,7 @@ function Fun.Create(title)
                 TextButton.Font = Enum.Font.Gotham
                 TextButton.Text = btnText
 		TextButton.TextScaled = True
-                TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-                TextButton.TextSize = 14.000
+                TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)  
 
                 UICorner.CornerRadius = UDim.new(0, 5)
                 UICorner.Parent = TextButton
