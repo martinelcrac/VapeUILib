@@ -366,7 +366,7 @@ function Fun.Create(title)
                 TextButton.AutoButtonColor = false
                 TextButton.Font = Enum.Font.Gotham
                 TextButton.Text = btnText
-		TextButton.TextSize = 14.000
+		TextButton.TextSize = 14
 	        TextButton.TextWrapped = true
                 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)  
 
