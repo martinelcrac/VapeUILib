@@ -1,5 +1,5 @@
 local Fun = {}
---sex
+
 local input = game:GetService("UserInputService")
 local run = game:GetService("RunService")
 local tween = game:GetService("TweenService")
@@ -108,14 +108,14 @@ function Fun.Create(title)
     nightmares.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     nightmares.BackgroundTransparency = 1.000
     nightmares.Position = UDim2.new(0.0499999262, 0, 0.0228203665, 0)
-    nightmares.Size = UDim2.new(0, 150, 0, 30)
+    nightmares.Size = UDim2.new(0, 103, 0, 28)
     nightmares.TextXAlignment = Enum.TextXAlignment.Left
     nightmares.Font = Enum.Font.Gotham
     nightmares.Text = " "..title
     nightmares.TextColor3 = Color3.fromRGB(92, 53, 93)
     nightmares.TextSize = 20.000
     nightmares.TextWrapped = true
-    nightmares.TextScaled = true
+    nightmares.TextWrapped = true
 
     fun.Name = "fun"
     fun.Parent = mainSide
@@ -172,7 +172,6 @@ function Fun.Create(title)
         tabButton.Size = UDim2.new(0, 149, 0, 35)
         tabButton.Font = Enum.Font.Gotham
         tabButton.Text = tabText
-        tabButton.TextSize  = false
         tabButton.TextColor3 = Color3.fromRGB(87, 87, 104)
         tabButton.TextSize = 16.000
 
@@ -366,9 +365,8 @@ function Fun.Create(title)
                 TextButton.AutoButtonColor = false
                 TextButton.Font = Enum.Font.Gotham
                 TextButton.Text = btnText
-		        TextButton.TextSize = 14.000
-	            TextButton.TextWrapped = true
-                TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)  
+                TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+                TextButton.TextSize = 14.000
 
                 UICorner.CornerRadius = UDim.new(0, 5)
                 UICorner.Parent = TextButton
