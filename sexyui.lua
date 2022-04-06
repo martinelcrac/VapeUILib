@@ -4,7 +4,9 @@ local input = game:GetService("UserInputService")
 local run = game:GetService("RunService")
 local tween = game:GetService("TweenService")
 local tweeninfo = TweenInfo.new
-
+local Player = Game.Players.LocalPlayer
+local mouse = Player:GetMouse()
+key="p";
 
 
 function Fun:DraggingEnabled(frame, parent)
@@ -93,8 +95,8 @@ function Fun.Create(title)
     UICorner.Parent = mainSide
 
 
-    game:GetService("UserInputService").InputBegan:connect(function(current) 
-            if current.KeyCode.Name == Enum.KeyCode.LeftAlt.Name then 
+ mouse.KeyDown:Connect(function(k)
+  if (k:lower() == key:lower()) then
                 if nightmarefun.Enabled == true then
                     nightmarefun.Enabled = false
                 else
@@ -108,14 +110,14 @@ function Fun.Create(title)
     nightmares.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     nightmares.BackgroundTransparency = 1.000
     nightmares.Position = UDim2.new(0.0499999262, 0, 0.0228203665, 0)
-    nightmares.Size = UDim2.new(0, 103, 0, 28)
+    nightmares.Size = UDim2.new(0, 150, 0, 30)
     nightmares.TextXAlignment = Enum.TextXAlignment.Left
     nightmares.Font = Enum.Font.Gotham
     nightmares.Text = " "..title
     nightmares.TextColor3 = Color3.fromRGB(92, 53, 93)
     nightmares.TextSize = 20.000
     nightmares.TextWrapped = true
-    nightmares.TextWrapped = true
+    nightmares.TextScaled = true
 
     fun.Name = "fun"
     fun.Parent = mainSide
