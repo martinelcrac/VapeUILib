@@ -172,7 +172,7 @@ function Fun.Create(title)
         tabButton.Size = UDim2.new(0, 149, 0, 35)
         tabButton.Font = Enum.Font.Gotham
         tabButton.Text = tabText
-        tabButton.TextScaled = false
+        tabButton.TextSize  = false
         tabButton.TextColor3 = Color3.fromRGB(87, 87, 104)
         tabButton.TextSize = 16.000
 
@@ -366,7 +366,8 @@ function Fun.Create(title)
                 TextButton.AutoButtonColor = false
                 TextButton.Font = Enum.Font.Gotham
                 TextButton.Text = btnText
-		TextButton.TextScaled = True
+		TextButton.TextSize = 14.000
+	        TextButton.TextWrapped = true
                 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)  
 
                 UICorner.CornerRadius = UDim.new(0, 5)
@@ -382,6 +383,7 @@ function Fun.Create(title)
                         game.TweenService:Create(TextButton, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut),{
                             Size = UDim2.new(0, 251,0, 28),
                             TextSize = 13
+									TextWrapped = true
                         }):Play()
                         wait(0.5)
                         clickDebounce = false
@@ -402,11 +404,13 @@ function Fun.Create(title)
                         game.TweenService:Create(TextButton, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut),{
                             Size = UDim2.new(0, 262,0, 31),
                             TextSize = 14
+									TextWrapped = true
                         }):Play()
                     else
                         game.TweenService:Create(TextButton, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut),{
                             Size = UDim2.new(0, 262,0, 31),
                             TextSize = 14
+									TextWrapped = true
                         }):Play()
                     end
                 end)
@@ -429,6 +433,7 @@ function Fun.Create(title)
                         game.TweenService:Create(TextButton, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut),{
                             Size = UDim2.new(0, 262,0, 31),
                             TextSize = 14
+									TextWrapped = true
                         }):Play()
                         game.TweenService:Create(TextButton, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut),{
                             BackgroundColor3 = Color3.fromRGB(127, 97, 145)
@@ -438,6 +443,7 @@ function Fun.Create(title)
                         game.TweenService:Create(TextButton, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut),{
                             Size = UDim2.new(0, 262,0, 31),
                             TextSize = 14
+									TextWrapped = true
                         }):Play()
                         game.TweenService:Create(TextButton, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut),{
                             BackgroundColor3 = Color3.fromRGB(127, 97, 145)
