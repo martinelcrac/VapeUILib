@@ -6,7 +6,7 @@ local tween = game:GetService("TweenService")
 local tweeninfo = TweenInfo.new
 local Player = Game.Players.LocalPlayer
 local mouse = Player:GetMouse()
-getgenv().openclouse="p";
+getgenv().openclouse="";
 
 
 function Fun:DraggingEnabled(frame, parent)
