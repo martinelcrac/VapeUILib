@@ -96,7 +96,7 @@ function Fun.Create(title)
 
 
  mouse.KeyDown:Connect(function(k)
-  if (k:lower() == key:lower()) then
+  if (k:lower() == getgenv().openclouse:lower()) then
                 if nightmarefun.Enabled == true then
                     nightmarefun.Enabled = false
                 else
