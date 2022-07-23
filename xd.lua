@@ -27,15 +27,6 @@ getgenv().openclouse="p";
 	Top.Position = UDim2.new(0, 15, 0, 15)
 	Top.Size = UDim2.new(0, 193, 0, 27)
   
-   mouse.KeyDown:Connect(function(k)
-  if (k:lower() == getgenv().openclouse:lower()) then
-                if Top.Enabled == true then
-                    Top.Enabled = false
-                else
-                    Top.Enabled = true
-                end
-            end
-    end)
 
 	Title.Name = "Title"
 	Title.Parent = Top
